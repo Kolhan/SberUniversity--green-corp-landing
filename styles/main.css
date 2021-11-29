@@ -242,11 +242,17 @@ footer {
         font-size: 36px;
         line-height: 40px;
     }
+    .about {
+        flex-direction: column-reverse;
+    }
     .about__image {
         width: 280px;
     }       
     .about__sun-image {
         width: 75px;
         height: 75px;
+    }
+    .footer__container {
+        flex-direction: column-reverse;
     }
 }
